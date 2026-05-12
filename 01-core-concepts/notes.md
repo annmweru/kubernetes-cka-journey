@@ -51,3 +51,14 @@ kube controller manager
   kubelet is an agent that registers the node,create pods and minitors state of nodes and pods
 
   kube proxy is the pod network
+
+
+  yaml in kubernetes
+  apiVersion v1
+  kind :pod
+  metadata :
+    name: myapp-pod
+    labels:
+        app :myapp
+  spec:
+    containers:
