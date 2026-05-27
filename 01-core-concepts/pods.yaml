@@ -1,0 +1,21 @@
+ Pods lab task using kodekloud
+    ### Pods
+    - A Pod is the smallest unit in Kubernetes
+    - A Pod wraps one or more containers
+    - To create a pod: kubectl run nginx --image=nginx
+    - To see all pods: kubectl get pods
+    - To describe a pod: kubectl describe pod nginx
+    kubectl get pods  - checking the number of pods
+    I created a new pods with nginx image kubectl run nginx --image=nginx
+    checking how many pods are running now - kubectl get pods
+    what is the image used to create a new pods - kubectl describe pod {pod- name}
+    which nodes are the pods placed on - kubectl get pods -o wide
+    how many containers are part of a webapp - kubectl get pods or kubeclt describe pod webapp
+    what images are used n a new webapp - kubectl describe pod webapp
+    create a new pod use pod definition YAML file - kubectl run redis --image=redis123 --dry-run -o yaml
+    kubectl run redis --image=redis123 --dry-run=client -o yaml
+
+    cat redis.yaml
+    kubectl create -f redis.yaml
+
+    change the image from reis123 to redis - vi redis.yaml and chnage the file

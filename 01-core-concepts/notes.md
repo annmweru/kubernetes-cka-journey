@@ -62,3 +62,9 @@ kube controller manager
         app :myapp
   spec:
     containers:
+
+
+
+   
+
+
