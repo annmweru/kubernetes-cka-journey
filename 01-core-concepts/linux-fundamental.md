@@ -28,3 +28,5 @@ cd.. move to parent directory
   mv rename a directory
   rmdir remove an empty directory
   rm -rf forciefully remove a directory recursively
+  locate - locate utility program or files
+  -exec to find and remove all the files that with end with something
